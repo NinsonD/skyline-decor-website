@@ -4,43 +4,44 @@ import { StepItemDT } from '@/types/custom-d-t';
 
 const ArchitectureHubStep = () => {
   const steps: StepItemDT[] = [
-    {
-      id: 1,
-      number: '01',
-      title: 'Project Analysis',
-      description: 'Stand out with a polished, professional look.',
-      icon: <ProjectAnalysisIcon />
-    },
-    {
-      id: 2,
-      empty: true
-    },
-    {
-      id: 3,
-      number: '02',
-      title: 'Functional Spaces',
-      description: 'Stand out with a polished, professional look.',
-      icon: <FunctionalSpacesIcon />
-    },
-    {
-      id: 4,
-      number: '03',
-      title: 'Residence Condom',
-      description: 'Stand out with a polished, professional look.',
-      icon: <ResidenceCondomIcon />
-    },
-    {
-      id: 5,
-      empty: true
-    },
-    {
-      id: 6,
-      number: '04',
-      title: 'Consultation',
-      description: 'Stand out with a polished, professional look.',
-      icon: <ConsultationIcon />
-    }
-  ];
+  {
+    id: 1,
+    number: '01',
+    title: 'Project Analysis',
+    description: 'Understanding requirements, site conditions, and project scope.',
+    icon: <ProjectAnalysisIcon />
+  },
+  {
+    id: 2,
+    empty: true
+  },
+  {
+    id: 3,
+    number: '02',
+    title: 'Design & Planning',
+    description: 'Developing functional layouts, materials, and execution strategy.',
+    icon: <FunctionalSpacesIcon />
+  },
+  {
+    id: 4,
+    number: '03',
+    title: 'Execution & Installation',
+    description: 'On-site execution with quality control, safety, and supervision.',
+    icon: <ResidenceCondomIcon />
+  },
+  {
+    id: 5,
+    empty: true
+  },
+  {
+    id: 6,
+    number: '04',
+    title: 'Final Handover',
+    description: 'Timely completion, inspection, and client approval.',
+    icon: <ConsultationIcon />
+  }
+];
+
 
   return (
     <div className="ar-step-area ar-step-bg z-index-1" style={{backgroundImage: `url(${StepBg.src})`}}>
@@ -49,7 +50,7 @@ const ArchitectureHubStep = () => {
           <div className="col-xxl-6 col-xl-5">
             <div className="ar-step-title-box">
               <span className="tp-section-subtitle-satisfy text-white mb-20 tp_fade_anim" data-delay=".3">
-                Architecture process
+                Interior Fit-Out Process  
               </span>
               <h3 className="tp-section-title-clash-600 text-white mb-0 tp_fade_anim" data-delay=".4">
                 The project process.

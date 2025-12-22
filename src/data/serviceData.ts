@@ -99,24 +99,43 @@ const servicesData: servicesDT[] = [
         link: "/service-details-light",
     },
     //Home two services data end
-    {
-        id: 9,
-        title: "Branding",
-        categories: ["Logo design", "Brand Guidelines", "Visual Identity", "Custom Emails", "Presentations"],
-        link: "/service-details-2-light",
-    },
-    {
-        id: 10,
-        title: "Identity",
-        categories: ["Logo design", "Brand Guidelines", "Visual Identity", "Custom Emails", "Presentations"],
-        link: "/service-details-2-light",
-    },
-    {
-        id: 11,
-        title: "Impact",
-        categories: ["Logo design", "Brand Guidelines", "Visual Identity", "Custom Emails", "Presentations"],
-        link: "/service-details-2-light",
-    },
+{
+  id: 9,
+  title: "Ceiling Solutions",
+  categories: [
+    "Gypsum Ceilings",
+    "Acoustic Ceilings",
+    "Metal & Wooden Ceilings",
+    "Baffle & Grid Systems",
+    "External Ceilings"
+  ],
+  link: "/service-details-ceiling",
+},
+{
+  id: 10,
+  title: "Partitioning Solutions",
+  categories: [
+    "Drywall Partitions",
+    "Fire-Rated Partitions",
+    "Soundproofing Systems",
+    "Wall Lining",
+    "Cement Board Partitions"
+  ],
+  link: "/service-details-partition",
+},
+{
+  id: 11,
+  title: "Turnkey Fit-Out",
+  categories: [
+    "Interior Design & Planning",
+    "MEP Coordination",
+    "Cladding & Insulation",
+    "Project Execution",
+    "Final Handover"
+  ],
+  link: "/service-details-turnkey",
+},
+
     // home five design agency light data start
     {
         id: 12,

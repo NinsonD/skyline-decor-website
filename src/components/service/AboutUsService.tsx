@@ -24,13 +24,14 @@ const AboutUsService = () => {
                         </div>
                         <div className="col-xl-3 col-lg-5">
                             <div className="creative-service-top-content">
-                                <p>We are a digital marketing agency with expertise, and we’re on a mission to help you take the next step in your business.</p>
+                                <p>We specialize in ceiling solutions, partitioning, cladding, and turnkey interior projects,
+                                bringing functional and aesthetically pleasing spaces to life.</p>
                                 <Link href="/blog-grid-2-col-light" className="tp-btn-black btn-red-bg pr-15">
                                     <span className="tp-btn-black-filter-blur">
                                         <ButtonBlurFilter filterId="buttonFilter5" />
                                     </span>
                                     <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: 'url(#buttonFilter5)' }}>
-                                        <span className="tp-btn-black-text">See all Articles</span>
+                                        <span className="tp-btn-black-text">Contact Us</span>
                                         <span className="tp-btn-black-circle">
                                             <ArrowSvg />
                                         </span>

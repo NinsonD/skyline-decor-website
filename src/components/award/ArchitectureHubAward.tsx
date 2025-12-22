@@ -5,35 +5,36 @@ import Image from 'next/image';
 
 const ArchitectureHubAward = () => {
   const awards: awardDT[] = [
-    {
-      id: 1,
-      year: '2005',
-      title: 'Architecture project of the year',
-      category: 'Architecture',
-      delay: '.3'
-    },
-    {
-      id: 2,
-      year: '2010',
-      title: 'Architecture MasterPriz',
-      category: 'Interior',
-      delay: '.4'
-    },
-    {
-      id: 3,
-      year: '2014',
-      title: 'Best project of the year',
-      category: 'Landscape',
-      delay: '.5'
-    },
-    {
-      id: 4,
-      year: '2020',
-      title: 'Architecture MasterPrize',
-      category: 'Architecture',
-      delay: '.6'
-    }
-  ];
+  {
+    id: 1,
+    year: '2022',
+    title: 'Corporate Office Interior Fit-Out',
+    category: 'Commercial',
+    delay: '.3'
+  },
+  {
+    id: 2,
+    year: '2023',
+    title: 'Luxury Residential Renovation',
+    category: 'Residential',
+    delay: '.4'
+  },
+  {
+    id: 3,
+    year: '2024',
+    title: 'Acoustic & Ceiling Works for Retail Space',
+    category: 'Retail',
+    delay: '.5'
+  },
+  {
+    id: 4,
+    year: '2025',
+    title: 'Turnkey Interior Project – Design to Handover',
+    category: 'Turnkey',
+    delay: '.6'
+  }
+];
+
 
   return (
     <div className="ar-award-area">
@@ -46,10 +47,10 @@ const ArchitectureHubAward = () => {
             <div className="col-xl-8">
               <div className="ar-award-title-box mb-50">
                 <span className="tp-section-subtitle-satisfy mb-20 tp_fade_anim" data-delay=".3">
-                  International Awards
+                  Building trust
                 </span>
                 <h3 className="tp-section-title-clash-600 fs-60 mb-0 tp_fade_anim" data-delay=".4">
-                  Awards & recognition
+                  consistent project delivery
                 </h3>
               </div>
             </div>

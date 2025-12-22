@@ -18,22 +18,22 @@ const ArchitectureHubService = () => {
     const services: ServiceItem[] = [
         {
             id: 1,
-            title: 'Construction',
+            title: 'Ceiling Solutions',
             imageUrl: service1,
         },
         {
             id: 2,
-            title: 'City planning',
+            title: 'Partitioning Solutions',
             imageUrl: service2,
         },
         {
             id: 3,
-            title: 'Residential',
+            title: 'Cladding & Insulation',
             imageUrl: service3,
         },
         {
             id: 4,
-            title: 'Interior Design',
+            title: 'Turnkey Interior Fit-Out',
             imageUrl: service4,
         },
     ];
@@ -46,10 +46,10 @@ const ArchitectureHubService = () => {
         <div className="ar-service-area ar-service-height ar-service-mr p-relative fix">
             <div className="ar-service-title-box">
                 <span className="tp-section-subtitle-satisfy text-white mb-20 tp_fade_anim" data-delay=".3">
-                    Architecture process
+                    Our Services
                 </span>
                 <h3 className="tp-section-title-clash-600 text-white fs-60 mb-0 tp_fade_anim" data-delay=".4">
-                    The project <br /> process.
+                    Specialized Interior <br /> Solutions.
                 </h3>
             </div>
 

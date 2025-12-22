@@ -260,7 +260,7 @@ export const projectsData: projectsDT[] = [
     //home Seven light project data start
     {
         id: 24,
-        title: 'Interior design',
+        title: 'Project 1',
         year: '2025',
         image: project21,
         altText: 'Interior design project',
@@ -268,7 +268,7 @@ export const projectsData: projectsDT[] = [
     },
     {
         id: 25,
-        title: 'Stylish Interior',
+        title: 'Project 2',
         year: '2025',
         image: project22,
         altText: 'Stylish Interior project',
@@ -276,7 +276,7 @@ export const projectsData: projectsDT[] = [
     },
     {
         id: 26,
-        title: 'Interior Transformation',
+        title: 'Project 3',
         year: '2025',
         image: project23,
         altText: 'Interior Transformation project',
@@ -284,7 +284,7 @@ export const projectsData: projectsDT[] = [
     },
     {
         id: 27,
-        title: 'Interior Spaces',
+        title: 'Project 4',
         year: '2025',
         image: project24,
         altText: 'Interior Spaces project',

@@ -12,15 +12,15 @@ const ArchitectureHubTestimonial = () => {
     const testimonials: TestimonialItem[] = [
         {
             id: 1,
-            content: "agntix began as a collaborative <br /> architectural and landscape workshop, and <br /> has remained true to its trans disciplinary way <br /> of thinking since its inception"
+            content: "Skyline Décor delivered exceptional <br/> quality workmanship, professional execution,<br/> and strict adherence to project timelines making<br/>  them a trusted interior partner"
         },
         {
             id: 2,
-            content: "agntix began as a collaborative <br /> architectural and landscape workshop, and <br /> has remained true to its trans disciplinary way <br /> of thinking since its inception"
+            content: "From design coordination to final <br/>handover, the team demonstrated technical expertise, attention to detail, and seamless <br/>interior project execution"
         },
         {
             id: 3,
-            content: "agntix began as a collaborative <br /> architectural and landscape workshop, and <br /> has remained true to its trans disciplinary way <br /> of thinking since its inception"
+            content: "Their commitment to quality, safety, <br/>and efficient project management ensured <br/>timely delivery with outstanding finishing <br/>standards throughout"
         }
     ];
 

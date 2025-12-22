@@ -12,10 +12,10 @@ const ArchitectureHubProject = () => {
                     <div className="row align-items-end">
                         <div className="col-xl-6 col-lg-8 col-md-7">
                             <div className="ar-project-title-box">
-                                <span className="tp-section-subtitle-satisfy mb-20 tp_fade_anim" data-delay=".3">Latest Project</span>
-                                <h3 className="tp-section-title-clash-600 mb-0 tp_fade_anim" data-delay=".4">Selected <br /> case studies</h3>
+                                <span className="tp-section-subtitle-satisfy mb-20 tp_fade_anim" data-delay=".3">Our Project</span>
+                                <h3 className="tp-section-title-clash-600 mb-0 tp_fade_anim" data-delay=".4">Delivering excellence across UAE</h3>
                             </div>
-                        </div>
+                        </div>  
                         <div className="col-xl-6 col-lg-4 col-md-5">
                             <div className="ar-project-btn-box d-flex justify-content-md-end justify-content-start mb-15">
                                 <div className="tp-btn-red-circle-box tp_fade_anim" data-delay=".4" data-fade-from="top" data-ease="bounce">

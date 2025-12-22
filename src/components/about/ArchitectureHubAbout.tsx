@@ -15,10 +15,10 @@ const ArchitectureHubAbout = () => {
                     <div className="row align-items-end">
                         <div className="col-xl-8 col-lg-8">
                             <div className="ar-about-title-box">
-                                <span className="tp-section-subtitle-satisfy mb-20 tp_fade_anim" data-delay=".3">Agntix Office</span>
+                                <span className="tp-section-subtitle-satisfy mb-20 tp_fade_anim" data-delay=".3">About Skyline</span>
                                 <h3 className="tp-section-title-clash-600 fs-60 fw-400 mb-0 pb-40 tp_fade_anim" data-delay=".4">
-                                    Through a unique combination of engineering,
-                                    construction and design disciplines & expertise.
+                                    Skyline Décor, <br/>a proud member of the <br/> 
+                                    <span style={{ color: '#e96f31' }}>Al Namariq</span> Group of Companies.
                                 </h3>
                             </div>
                         </div>
@@ -39,18 +39,16 @@ const ArchitectureHubAbout = () => {
                     <div className="col-xl-4 col-lg-4 col-md-10 order-1 order-lg-0">
                         <div className="ar-about-content">
                             <h3 className="ar-about-title-sm tp_fade_anim" data-delay=".3">
-                                Urban design do
-                                together the many
-                                strands of place-making,
-                                but the majority have
-                                suffered.
+                                We are a leading interior fit-out 
+                                specializing in CEILINGS, PARTITIONS, 
+                                ACOUSTIC SYSTEMS, and 
+                                TURNKEY INTERIOR SOLUTIONS.
                             </h3>
                             <div className="tp_fade_anim" data-delay=".4">
                                 <p>
-                                    One began as a collaborative
-                                    architectural & landscape workshop,
-                                    and has remained true to its trans
-                                    disciplinary
+                                    We bring concepts to life 
+                                    with expert craftsmanship 
+                                    and timely execution.
                                 </p>
                             </div>
                             <div className="tp-btn-red-circle-box tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
@@ -68,7 +66,7 @@ const ArchitectureHubAbout = () => {
                         <div data-speed="1.1" className="ar-about-exp-wrap d-flex justify-content-xxl-start justify-content-end">
                             <div className="ar-about-exp-box" style={{ backgroundImage: `url(${aboutBg.src})` }}>
                                 <span>Years of <br /> Experience</span>
-                                <h4>17</h4>
+                                <h4>27</h4>
                             </div>
                         </div>
                     </div>

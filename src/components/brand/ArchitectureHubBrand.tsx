@@ -11,21 +11,22 @@ interface BrandItem {
 }
 
 const ArchitectureHubBrand = () => {
-    const brandItems: BrandItem[] = [
-        { id: 1, title: 'Creative agency' },
-        { id: 2, title: 'Website marketing' },
-        { id: 3, title: 'Digital marketing' },
-        { id: 4, title: 'Product marketing' },
-        { id: 5, title: 'Research marketing' },
-        { id: 6, title: 'Website marketing' },
-        { id: 7, title: 'Lifetime Update' },
-        { id: 8, title: 'Social Media Marketing' },
-        { id: 9, title: 'SEO Optimization' },
-        { id: 10, title: 'Website marketing' },
-        { id: 11, title: 'Digital marketing' },
-        { id: 12, title: 'Product marketing' },
-        { id: 13, title: 'Research marketing' }
-    ];
+const brandItems: BrandItem[] = [
+    { id: 1, title: 'Interior Fit-Out' },
+    { id: 2, title: 'Ceiling Systems' },
+    { id: 3, title: 'Partition Solutions' },
+    { id: 4, title: 'Acoustic Works' },
+    { id: 5, title: 'Cladding Systems' },
+    { id: 6, title: 'Turnkey Projects' },
+    { id: 7, title: 'Project Management' },
+    { id: 8, title: 'Commercial Interiors' },
+    { id: 9, title: 'Hospitality Fit-Out' },
+    { id: 10, title: 'Office Interiors' },
+    { id: 11, title: 'Renovation Works' },
+    { id: 12, title: 'Quality Execution' },
+    { id: 13, title: 'Trusted Expertise' }
+];
+
 
     return (
         <div className="ar-brand-area ar-brand-style">

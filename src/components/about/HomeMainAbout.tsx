@@ -28,8 +28,9 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                             <div className="tp-about-wrap">
                                 <div className="tp-about-text tp_fade_anim">
                                     <p>
-                                        An independent web design and branding agency in Manchester set up in 2010 who care,
-                                        build relationships, have industry experience, and win awards.
+                                        An independent interior fit-out and contracting company in the UAE, established in 1995,
+                                        who prioritize quality, build lasting client relationships, have extensive industry experience,
+                                        and deliver projects with precision and professionalism.
                                     </p>
                                 </div>
                                 <div className="row">
@@ -44,7 +45,8 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                                 <Image className="tp_fade_anim" data-delay=".3"
                                                     data-fade-from="right" src={aboutAvater} alt="about-avater" />
                                                 <div className="tp_text_anim">
-                                                    <p>Driven by a passion for innovation, we specialize in <br /> delivering top-quality design solutions</p>
+                                                    <p>Driven by a passion for excellence, we specialize in
+                                                       delivering high-quality interior fit-out and turnkey solutions.</p>
                                                 </div>
                                             </div>
                                             {/* counter area */}

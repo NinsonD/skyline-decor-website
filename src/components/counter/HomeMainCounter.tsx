@@ -11,7 +11,7 @@ const counter_data = [
   },
   {
     id: 2,
-    title: "Projects Completed in\n24 Countries",
+    title: "Projects completed across the UAE and GCC",
     count: 125,
     suffix: '+',
     dataDelay:".5"

@@ -14,30 +14,30 @@ const ArchitectureHubFunFact = ({ spacingCls = "mb-110" }) => {
   const funFacts: FunFactItem[] = [
     {
       id: 1,
-      value: 4,
+      value: 2,
       suffix: "k+",
       label: "Projects completed",
       delay: ".3",
     },
     {
       id: 2,
-      value: 91,
+      value: 27,
       suffix: "+",
-      label: "renovation experts",
+      label: "Years of Experience",
       delay: ".5",
     },
     {
       id: 3,
-      value: 42,
+      value: 30,
       suffix: "+",
-      label: "renovation experts",
+      label: "Skilled Professionals",
       delay: ".7",
     },
     {
       id: 4,
       value: 24,
       suffix: "+",
-      label: "Projects completed",
+      label: "Landmark Projects",
       delay: ".8",
     }
   ];
