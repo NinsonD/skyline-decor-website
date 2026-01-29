@@ -1,7 +1,6 @@
 import aboutShape from '../../../public/assets/img/about-us/about-us-4/about-us-4-shape-1.png';
 import aboutBg from '../../../public/assets/img/about-us/about-us-4/about-us-4-bg.png';
 import Image from 'next/image';
-import React from 'react';
 
 const AboutUsHero = () => {
     return (

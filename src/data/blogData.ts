@@ -115,38 +115,38 @@ const blogData: blogDT[] = [
     {
         id: 7,
         image: blog7,
-        category: 'Architect',
-        title: 'Collective Living Challenge In design',
+        category: 'Interior Fit Out',
+        title: 'Interior Fit-Out Challenges for Collective Living in UAE',
         date: 'September 27, 2025',
         delay: '.3',
-        link: "/blog-details-light"
+        link: "#"
     },
     {
         id: 8,
         image: blog8,
-        category: 'Interior',
-        title: 'Challenges of Collective Living in Design',
+        category: 'Interior Design',
+        title: 'Overcoming Design Challenges in Collective Living Spaces Dubai',
         date: 'September 27, 2025',
         delay: '.4',
-        link: "/blog-details-light"
+        link: "#"
     },
     {
         id: 9,
         image: blog9,
         category: 'Construction',
-        title: 'Modern Design for Collective Living Spaces',
+        title: 'Modern Interior Design for Collective Living Spaces UAE',
         date: 'September 27, 2025',
         delay: '.5',
-        link: "/blog-details-light"
+        link: "#"
     },
     {
         id: 10,
         image: blog10,
-        category: 'Interior',
-        title: 'The Future of Collective Living Spaces',
+        category: 'Interior Fit Out',
+        title: 'The Future of Interior Fit-Out for Collective Living in Dubai',
         date: 'September 27, 2025',
         delay: '.6',
-        link: "/blog-details-light"
+        link: "#"
     },
     //  architecture hub light home blog data end
 
@@ -271,24 +271,24 @@ const blogData: blogDT[] = [
     {
         id: 23,
         image: blog23,
-        category: "Design",
-        title: "Fueling ambition & Achieving your goals",
+        category: "Interior Design",
+        title: "Achieving Interior Design Goals in UAE with Skyline Décor",
         link: "/blog-details-light",
         date: "July 15, 2023",
     },
     {
         id: 24,
         image: blog24,
-        category: "Design",
-        title: "Behind the scenes of creative processes",
+        category: "Fit Out",
+        title: "Behind the Scenes of Interior Fit-Out Projects in Dubai",
         link: "/blog-details-light",
         date: "July 15, 2023",
     },
     {
         id: 25,
         image: blog25,
-        category: "Design",
-        title: "Starting seo as your home business",
+        category: "Renovation",
+        title: "Starting Your Interior Renovation Business in UAE",
         link: "/blog-details-light",
         date: "July 15, 2023",
     },

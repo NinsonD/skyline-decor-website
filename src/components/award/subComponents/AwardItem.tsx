@@ -9,7 +9,7 @@ const AwardItem = () => {
     <div className="row">
       <div className="col-xl-12">
         <div className="tp-award-subtitle-box mb-30">
-          <span className="tp-award-subtitle">( Awards! )</span>
+          <span className="tp-award-subtitle">( MileStones )</span>
         </div>
       </div>
       <div className="tp-award-item-wrap p-relative">

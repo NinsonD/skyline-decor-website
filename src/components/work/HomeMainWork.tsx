@@ -18,8 +18,8 @@ const HomeMainWork = () => {
                                     <i>01</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">User Research</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Project Analysis</h4>
+                                    <p>Understanding client requirements, site conditions, and project scope.</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -28,8 +28,8 @@ const HomeMainWork = () => {
                                     <i>02</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">Define Problems</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Design & Planning</h4>
+                                    <p>Developing functional layouts, materials, and execution strategy.</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -38,8 +38,8 @@ const HomeMainWork = () => {
                                     <i>03</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">Design & Prototype</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Execution & Installation</h4>
+                                    <p>On-site execution with quality control, safety, and expert supervision.</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -48,8 +48,8 @@ const HomeMainWork = () => {
                                     <i>04</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">Evaluation & Testing</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Final Handover</h4>
+                                    <p>Timely completion, inspection, and client approval.</p>
                                 </div>
                             </div>
                         </div>

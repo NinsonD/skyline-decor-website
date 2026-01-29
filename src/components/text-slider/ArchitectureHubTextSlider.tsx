@@ -17,32 +17,32 @@ const ArchitectureHubTextSlider = () => {
     const slides: TextSlideItem[] = [
         {
             id: 1,
-            text: 'we love',
+            text: 'Gypsum',
             hasStroke: true
         },
         {
             id: 2,
-            text: 'architecture',
+            text: 'Acoustic',
             hasStroke: false
         },
         {
             id: 3,
-            text: 'design.',
+            text: 'Partition',
             hasStroke: true
         },
            {
             id: 4,
-            text: 'we love',
+            text: 'Ceiling',
             hasStroke: true
         },
         {
             id: 5,
-            text: 'architecture',
+            text: 'Baffle',
             hasStroke: false
         },
         {
             id: 6,
-            text: 'design.',
+            text: 'Insulation',
             hasStroke: true
         },
            {
@@ -52,7 +52,7 @@ const ArchitectureHubTextSlider = () => {
         },
         {
             id: 8,
-            text: 'design.',
+            text: 'Design',
             hasStroke: true
         }
     ];

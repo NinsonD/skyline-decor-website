@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const PostboxDetailsThumb = () => {
     return (
-        <Link href="#">
+        <Link href="/portfolio-col-3-light">
             <div className="postbox-details-nevigation-wrap p-relative">
                 <div className="postbox-details-nevigation-thumb-bg">
                     <div className="postbox-details-nevigation-thumb">
@@ -12,8 +12,7 @@ const PostboxDetailsThumb = () => {
                     </div>
                 </div>
                 <div className="postbox-details-nevigation-content">
-                    <span>Next Post</span>
-                    <h4 className="postbox-details-nevigation-title">Tips for thriving in our <br /> virtual world</h4>
+                    <h4 className="postbox-details-nevigation-title">Explore Our Works</h4>
                 </div>
             </div>
         </Link>

@@ -8,7 +8,7 @@ const ArchitectureHubCopyright = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="ar-copyright-text text-lg-start text-center">
-                            <p>Aqlova ©{getCurrentYear()}. All rights reserved.</p>
+                            <p>skylinedecor ©{getCurrentYear()}. All rights reserved.</p>
                         </div>
                     </div>
                     <div className="col-lg-6">

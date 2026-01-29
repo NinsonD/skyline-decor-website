@@ -24,8 +24,7 @@ const ContactHero = () => {
                                 </div>
                             </div>
                             <h3 className="tp-career-title fs-100 pb-30">Any questions? <br />
-                                simply ask us this is <br />
-                                you home!</h3>
+                                simply ask us!</h3>
                         </div>
                     </div>
                 </div>
@@ -53,16 +52,16 @@ const ContactHero = () => {
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p> Call Us Directly</p>
-                                                <Link className="tp-line-white" href="tel:2246767430">+(1) 224 676 7430</Link>
+                                                <Link className="tp-line-white" href="phn:065328033">+971-6-5328033</Link>
                                             </div>
                                         </div>
                                         <div className="ar-about-funfact-item d-flex align-items-center">
                                             <div className="ar-about-funfact-item-icon">
-                                                <span><EmailIcon /></span>
+                                                <span><EmailIcon /></span>  
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p>Need Support?</p>
-                                                <Link className="tp-line-white" href="mailto:agntixs@studio.com">agntixs@studio.com</Link>
+                                                <Link className="tp-line-white" href="mailto:skylinedecor@namariqgroup.com">skylinedecor@namariqgroup.com</Link>
                                             </div>
                                         </div>
                                         <div className="ar-about-funfact-item d-flex align-items-center">
@@ -70,7 +69,8 @@ const ContactHero = () => {
                                                 <span><MessageIcon /></span>
                                             </div>
                                             <div className="ar-about-funfact-item-content">
-                                                <Link className="tp-line-white" href="contact.html">Start Chat</Link>
+                                                <p>Chat with Us</p>
+                                                <Link className="tp-line-white" href="phn:0506320879">+971-50-6320879</Link>
                                             </div>
                                         </div>
                                     </div>

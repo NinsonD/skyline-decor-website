@@ -1,7 +1,7 @@
 
 import aboutShape from '../../../public/assets/img/home-08/about/about-shape.png';
 import aboutBg from '../../../public/assets/img/home-08/hero/hero-bg-shape-2.png';
-import about1 from '../../../public/assets/img/home-08/about/about-1.jpg';
+import about1 from '../../../public/assets/img/home-08/about/about-1.png';
 import about2 from '../../../public/assets/img/home-08/about/about-2.jpg';
 import Image from 'next/image';
 import Link from 'next/link';

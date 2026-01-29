@@ -5,6 +5,7 @@ import service3 from "../../../public/assets/img/home-08/service/service-3.jpg";
 import service4 from "../../../public/assets/img/home-08/service/service-1.jpg";
 import { StaticImageData } from "next/image";
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface ServiceItem {
     id: number;
@@ -13,6 +14,7 @@ interface ServiceItem {
 };
 
 const ArchitectureHubService = () => {
+    const router = useRouter();
     const [activeId, setActiveId] = useState<number>(1); 
 
     const services: ServiceItem[] = [
@@ -42,6 +44,10 @@ const ArchitectureHubService = () => {
         setActiveId(id);
     };
 
+    const handleServiceClick = () => {
+        router.push('/blog-details-light');
+    };
+
     return (
         <div className="ar-service-area ar-service-height ar-service-mr p-relative fix">
             <div className="ar-service-title-box">
@@ -58,6 +64,8 @@ const ArchitectureHubService = () => {
                     key={service.id}
                     className={`ar-service-item d-flex align-items-end justify-content-end ${activeId === service.id ? 'active' : ''}`}
                     onMouseEnter={() => handleMouseEnter(service.id)}
+                    onClick={handleServiceClick}
+                    style={{ cursor: 'pointer' }}
                 >
                     <div className="ar-service-bg" style={{ backgroundImage: `url(${service.imageUrl.src})` }}></div>
                     <span className="ar-service-title">{service.title}</span>

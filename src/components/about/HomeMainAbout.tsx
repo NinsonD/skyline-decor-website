@@ -1,5 +1,5 @@
 import aboutShape from "../../../public/assets/img/home-01/about/about-shape-1.png"
-import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.jpg"
+import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.png"
 import aboutAvater from "../../../public/assets/img/home-01/about/about-avater.png"
 import HomeMainCounter from "../counter/HomeMainCounter";
 import Image from "next/image";

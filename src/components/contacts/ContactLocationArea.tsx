@@ -8,46 +8,46 @@ import contactLocation3 from "../../../public/assets/img/contact/contact-locatio
 const ContactLocationArea = () => {
   const locations = [
     {
-      title: "France",
-      time: "12:00 pm GMT+2",
+      title: "Dubai Office",
+      time: "12:00 pm GMT+4",
       img: contactLocation1,
-      addressTitle: "Base Create",
+      addressTitle: "Al Namariq Technical Services L.L.C",
       address: (
         <>
-          Base Creative, 43 Appleton <br /> Lane, 3287 Hamilton
+          P.O. Box: 62379, Dubai, UAE
         </>
       ),
       mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
+      phone: "",
+      email: "skylinedecor@namariqgroup.com",
     },
     {
-      title: "Germany",
-      time: "12:00 pm GMT+2",
+      title: "Sharjah Office",
+      time: "12:00 pm GMT+4",
       img: contactLocation2,
-      addressTitle: "Base Create",
+      addressTitle: "Skyline Décor L.L.C",
       address: (
         <>
-          Duesseldorfer Strasse 181 <br /> 40545 Duesseldorf <br /> Germany
+          P.O. Box: 25569, Sharjah, UAE
         </>
       ),
       mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
+      phone: "",
+      email: "skylinedecor@namariqgroup.com",
     },
     {
-      title: "New Zealand",
-      time: "12:00 pm GMT+2",
+      title: "Abu Dhabi Office",
+      time: "12:00 pm GMT+4",
       img: contactLocation3,
-      addressTitle: "Base Create",
+      addressTitle: "Skyline Décor L.L.C (Branch)",
       address: (
         <>
-          1758 Berkeley <br /> St. Santa Monica, CA 90404
+          P.O. Box: 3952738, Abu Dhabi, UAE
         </>
       ),
       mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
+      phone: "",
+      email: "skylinedecor@namariqgroup.com",
     },
   ];
 

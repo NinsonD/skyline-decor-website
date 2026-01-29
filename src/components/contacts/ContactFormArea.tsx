@@ -18,9 +18,7 @@ const ContactFormArea = () => {
                                     <ArrowTwenty />
                                 </div>
                             </div>
-                            <h3 className="tp-section-title lts">{`Let's`} make <br />
-                                your brand <br />
-                                brilliant!</h3>
+                            <h3 className="tp-section-title lts">{`Let's`} Build<br />Your Vision<br />Into Reality!</h3>
                         </div>
                     </div>
                     <div className="col-lg-6">

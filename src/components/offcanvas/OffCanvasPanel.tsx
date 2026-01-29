@@ -73,9 +73,10 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                         <div className="tp-offcanvas-contact">
                             <h3 className="tp-offcanvas-title sm">Information</h3>
                             <ul>
-                                <li><Link href="tel:1245654">+ 4 20 7700 1007</Link></li>
-                                <li><Link href="mailto:hello@diego.com">hello@diego.com</Link></li>
-                                <li><Link href="#">Avenue de Roma 158b, Lisboa</Link></li>
+                                <li><Link href="tel:+971-50-6320879">+971-50-6320879</Link></li>
+                                <li><Link href="mailto:skylinedecor@namariqgroup.com">skylinedecor@namariqgroup.com</Link></li>
+                                <li><Link href="#">Industrial Area 2,<br /> P.O. Box: 25569,
+                                        Sharjah, UAE</Link></li>
                             </ul>
                         </div>
                         <div className="tp-offcanvas-social">

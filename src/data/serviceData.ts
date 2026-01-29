@@ -109,7 +109,7 @@ const servicesData: servicesDT[] = [
     "Baffle & Grid Systems",
     "External Ceilings"
   ],
-  link: "/service-details-ceiling",
+  link: "/blog-details-light",
 },
 {
   id: 10,
@@ -121,19 +121,31 @@ const servicesData: servicesDT[] = [
     "Wall Lining",
     "Cement Board Partitions"
   ],
-  link: "/service-details-partition",
+  link: "/blog-details-light",
 },
 {
   id: 11,
-  title: "Turnkey Fit-Out",
+  title: "Cladding & Insulation",
+  categories: [
+    "Wall Cladding",
+    "Insulation Systems",
+    "Acoustic Panels",
+    "Decorative Cladding",
+    "Thermal Insulation"
+  ],
+  link: "/blog-details-light",
+},
+{
+  id: 12,
+  title: "Turnkey Interior Fit-Out",
   categories: [
     "Interior Design & Planning",
     "MEP Coordination",
-    "Cladding & Insulation",
+    "Ceiling & Partitioning",
     "Project Execution",
     "Final Handover"
   ],
-  link: "/service-details-turnkey",
+  link: "/blog-details-light",
 },
 
     // home five design agency light data start

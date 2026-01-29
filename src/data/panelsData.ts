@@ -6,7 +6,7 @@ import three from '../../public/assets/img/home-01/funfact/funfact-3.png';
 import four from '../../public/assets/img/home-01/funfact/funfact-4.png';
 import five from '../../public/assets/img/home-01/funfact/funfact-5.png';
 import six from '../../public/assets/img/home-01/funfact/funfact-6.png';
-import seven from '../../public/assets/img/home-01/funfact/funfact-8.png';
+import seven from '../../public/assets/img/home-01/funfact/funfact-7.png';
 import eight from '../../public/assets/img/home-01/funfact/funfact-9.png';
 import { Panel } from '@/types/custom-d-t';
 
@@ -16,7 +16,7 @@ const panelsData: Panel[] = [
     id: 1,
     style: 'tp-funfact-green-wrap',
     subtitle: '( Nice! )',
-    title: 'projects <br> completed <br> in 24 countries',
+    title: 'Clients <br> satisfied and <br> returning',
     funfactNumber: "right",
     spacingCls: "",
     images: [
@@ -36,13 +36,13 @@ const panelsData: Panel[] = [
       { src: placeholder, delay: 1.7 },
     ],
     bigImage: { src: six, delay: 0.7 },
-    number: '106',
+    number: '98%',
   },
   {
     id: 2,
     style: 'tp-funfact-green-wrap pink-style',
     subtitle: '( Ho Ho! )',
-    title: 'Clients <br> satisfied and <br> repeating',
+    title: 'Projects completed <br> across the UAE <br> and GCC',
     funfactNumber: "right",
     spacingCls: "",
     images: [
@@ -62,7 +62,7 @@ const panelsData: Panel[] = [
       { src: five, delay: 1.7 },
     ],
     bigImage: { src: seven, delay: 0.7 },
-    number: '96',
+    number: '125+',
   },
   {
     id: 3,

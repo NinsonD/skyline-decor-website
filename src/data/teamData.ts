@@ -177,50 +177,50 @@ const teamMembersData: TeamMember[] = [
   {
     id: 16,
     image: team15,
-    name: 'Andrew',
-    position: 'Developer',
+    name: 'James',
+    position: 'Project Manager',
     link: '/team-details-light'
   },
   {
     id: 17,
     image: team16,
-    name: 'Sophia',
-    position: 'Developer',
+    name: 'Oliver',
+    position: 'Senior Designer',
     link: '/team-details-light'
   },
   {
     id: 18,
     image: team17,
-    name: 'Emma',
-    position: 'Developer',
+    name: 'Sophia',
+    position: 'Interior Designer',
     link: '/team-details-light'
   },
   {
     id: 19,
     image: team18,
-    name: 'James',
-    position: 'Developer',
+    name: 'Emma',
+    position: 'Site Supervisor',
     link: '/team-details-light'
   },
   {
     id: 20,
     image: team19,
-    name: 'Oliver',
-    position: 'Developer',
+    name: 'Andrew',
+    position: 'Project Coordinator',
     link: '/team-details-light'
   },
   {
     id: 21,
     image: team16,
     name: 'Sophia',
-    position: 'Developer',
+    position: 'Interior Designer',
     link: '/team-details-light'
   },
   {
     id: 22,
     image: team17,
     name: 'Emma',
-    position: 'Developer',
+    position: 'Site Supervisor',
     link: '/team-details-light'
   }
   //about us inner page team data end

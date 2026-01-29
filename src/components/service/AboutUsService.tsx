@@ -18,7 +18,7 @@ const AboutUsService = () => {
                         <div className="col-xl-6 col-lg-7">
                             <div className="creative-blog-title-box">
                                 <h4 className="tp-section-title fs-44">
-                                    How we take your <br /> business to the next level
+                                    How We Take Your Space to the Next Level
                                 </h4>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ const AboutUsService = () => {
                             <div className="creative-service-top-content">
                                 <p>We specialize in ceiling solutions, partitioning, cladding, and turnkey interior projects,
                                 bringing functional and aesthetically pleasing spaces to life.</p>
-                                <Link href="/blog-grid-2-col-light" className="tp-btn-black btn-red-bg pr-15">
+                                <Link href="/contact" className="tp-btn-black btn-red-bg pr-15">
                                     <span className="tp-btn-black-filter-blur">
                                         <ButtonBlurFilter filterId="buttonFilter5" />
                                     </span>
@@ -44,7 +44,7 @@ const AboutUsService = () => {
                 <div className="creative-service-wrap">
                     <div className="row">
                         <div className="offset-xl-3 col-xl-9">
-                            {servicesData.slice(8, 11).map((service, index) => (
+                            {servicesData.slice(8, 12).map((service, index) => (
                                 <AboutUsServiceItem key={service.id} service={service} index={index} />
                             ))}
                         </div>

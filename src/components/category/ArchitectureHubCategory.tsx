@@ -14,27 +14,27 @@ const ArchitectureHubCategory = () => {
     {
       name: 'Landscape',
       icon: <LandscapeIcon />,
-      href: '#'
+      href: '/blog-details-light'
     },
     {
       name: 'Commercial',
       icon: <CommercialIcon />,
-      href: '#'
+      href: '/blog-details-light'
     },
     {
       name: 'Residential',
       icon: <ResidentialIcon />,
-      href: '#'
+      href: '/blog-details-light'
     },
     {
       name: 'Industrial',
       icon: <IndustrialIcon />,
-      href: '#'
+      href: '/blog-details-light'
     },
     {
       name: 'Urban',
       icon: <UrbanIcon />,
-      href: '#'
+      href: '/blog-details-light'
     }
   ];
 

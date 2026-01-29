@@ -11,6 +11,7 @@ import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
 import HomeMainAbout from '@/components/about/HomeMainAbout';
 import AboutUsBrand from '@/components/brand/AboutUsBrand';
 import AboutUsAward from '@/components/award/AboutUsAward';
+// import PortfolioColThree from '@/components/portfolio/PortfolioColThree';
 import HomeMainWork from '@/components/work/HomeMainWork';
 import AboutUsTeam from '@/components/team/AboutUsTeam';
 
@@ -38,6 +39,7 @@ const AboutUsLightMain = () => {
                                 <HomeMainWork />
                                 <AboutUsTeam />
                                 <AboutUsAward />
+                                {/* <PortfolioColThree /> */}
                             </main>
                             <HomeMainFooter />
                         </div>

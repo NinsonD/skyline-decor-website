@@ -11,12 +11,12 @@ const Breadcurmb = () => {
                     <div className="col-xl-12">
                         <div className="tp-portfolio-inner-box pb-100">
                             <div className="tp-portfolio-heading pb-30 d-flex p-relative tp_fade_anim">
-                                <span className="tp-section-subtitle pre orange-color tp_fade_anim mr-95">Portfolio{" "}
+                                <span className="tp-section-subtitle pre orange-color tp_fade_anim mr-95">Projects{" "}
                                     <ArrowTwentyThree />
                                 </span>
 
-                                <h3 className="tp-blog-title fs-100 tp_fade_anim">We Make <Image src={aboutShape} alt="about shape" /> <br />
-                                    Digital Beautiful</h3>
+                                <h3 className="tp-blog-title fs-100 tp_fade_anim">Transforming Spaces,<Image src={aboutShape} alt="about shape" /> <br />
+                                    Perfecting Interiors</h3>
                             </div>
                         </div>
                     </div>

@@ -12,32 +12,7 @@ const BlogDetailsPostbox = () => {
                             <div className="tp-blog-details-without-heading text-center">
                                 <article className="postbox-details-item mb-20">
                                     <div className="postbox-details-info-wrap">
-                                        <div className="postbox-tag postbox-details-tag">
-                                            <span>
-                                                <i><ClockIcon /> </i>
-                                                Inspiration
-                                            </span>
-                                            <span>4 min read</span>
-                                        </div>
-                                        <h4 className="postbox-title fs-80">Lessons learned from <br /> professional challenges</h4>
-                                        <div className="postbox-details-meta d-flex align-items-center justify-content-center">
-                                            <div className="postbox-author-box d-flex align-items-center ">
-                                                <div className="postbox-author-img">
-                                                    <Image src={authorImg} alt="author image" />
-                                                </div>
-                                                <div className="postbox-author-info">
-                                                    <h4 className="postbox-author-name">Phil Martinez</h4>
-                                                </div>
-                                            </div>
-                                            <div className="postbox-meta">
-                                                <i><ClockIcon /></i>{" "}
-                                                <span>April 15, 2025</span>
-                                            </div>
-                                            <div className="postbox-meta">
-                                                <i><CommentIcon /></i>{" "}
-                                                <span>0 comments</span>
-                                            </div>
-                                        </div>
+                                        <h4 className="postbox-title fs-80">Lessons learne <br /> professional challenges</h4>
                                     </div>
                                 </article>
                             </div>

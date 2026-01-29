@@ -21,8 +21,8 @@ const ArchitectureHubBlog = () => {
                                     <Link className="tp-btn-red-circle-icon" href="/blog-grid-light">
                                         <span><ArrowFour /></span>
                                     </Link>
-                                    <Link className="tp-btn-red-circle-text" href="/blog-grid-light">View all blog</Link>
-                                    <Link className="tp-btn-red-circle-icon" href="/blog-grid-light">
+                                    <Link className="tp-btn-red-circle-text" href="/blog-details-light">View Our Services</Link>
+                                    <Link className="tp-btn-red-circle-icon" href="/blog-details-light">
                                         <span> <ArrowFour /></span>
                                     </Link>
                                 </div>

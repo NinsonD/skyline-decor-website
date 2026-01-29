@@ -19,7 +19,7 @@ const AboutUsServiceItem = ({ service, index }: { service: servicesDT, index: nu
             </div>
         </div>
         <div className="creative-service-link">
-            <Link href="/service-details-light">
+            <Link href="/blog-details-light">
                 <span>
                     <ArrowSvg width="14" height="14" viewBox="0 0 14 14" pathValue="M1 13L13 1M13 1H1M13 1V13" />
                 </span>

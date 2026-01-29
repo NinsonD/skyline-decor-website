@@ -22,45 +22,31 @@ import awardImg12 from '../../public/assets/img/home-01/award/award-6.jpg';
 export const homeAwardsData: awardDT[] = [
     {
         id: 1,
-        year: "2008",
-        title: "1x agency of the year",
-        position: "Winner",
+        year: "2015",
+        title: "Completion of First Commercial Fit-Out Project",
+        position: "Commercial Interiors",
         image: awardImg
     },
     {
         id: 2,
-        year: "2009",
-        title: "3x creative agency of the day",
-        position: "Awarded",
+        year: "2018",
+        title: "Expansion into Ceiling & Acoustic Solutions",
+        position: "Specialized Works",
         image: awardImg2
     },
     {
         id: 3,
-        year: "2011",
-        title: "2x Featured design of the week",
-        position: "Mentioned",
+        year: "2021",
+        title: "Delivered Multiple Turnkey Interior Projects",
+        position: "Turnkey Fit-Out",
         image: awardImg3
     },
     {
         id: 4,
-        year: "2016",
-        title: "5x honorable mentioned",
-        position: "Mentioned",
+        year: "2024",
+        title: "Ongoing Commercial & Residential Projects",
+        position: "Active Projects",
         image: awardImg4
-    },
-    {
-        id: 5,
-        year: "2022",
-        title: "8x Best design of the day",
-        position: "Winner",
-        image: awardImg5
-    },
-    {
-        id: 6,
-        year: "2025",
-        title: "3x Mobile Excellence Award",
-        position: "Awarded",
-        image: awardImg6
     },
 ];
 

@@ -260,35 +260,35 @@ export const projectsData: projectsDT[] = [
     //home Seven light project data start
     {
         id: 24,
-        title: 'Project 1',
+        title: 'Al Ain Court',
         year: '2025',
         image: project21,
         altText: 'Interior design project',
-        link: '/portfolio-details-classic-stack-light',
+        link: '/portfolio-col-3-light',
     },
     {
         id: 25,
-        title: 'Project 2',
+        title: 'Dubai Terminal 3',
         year: '2025',
         image: project22,
         altText: 'Stylish Interior project',
-        link: '/portfolio-details-classic-stack-light',
+        link: '/portfolio-col-3-light',
     },
     {
         id: 26,
-        title: 'Project 3',
+        title: 'Eagle Hills',
         year: '2025',
         image: project23,
         altText: 'Interior Transformation project',
-        link: '/portfolio-details-classic-stack-light',
+        link: '/portfolio-col-3-light',
     },
     {
         id: 27,
-        title: 'Project 4',
+        title: 'Sports Bay',
         year: '2025',
         image: project24,
         altText: 'Interior Spaces project',
-        link: '/portfolio-details-classic-stack-light',
+        link: '/portfolio-col-3-light',
     },
     //home Seven light project data end
 

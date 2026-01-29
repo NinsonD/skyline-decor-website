@@ -79,16 +79,17 @@ const MobileOffcanvas: React.FC<IProps> = (
                         <h4 className="tp-offcanvas-2-right-info-title">Get In Touch</h4>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Phone</label>
-                            <Link className="tp-line-white" href="tel:42345678910">+4 (234) 567 8910</Link>
+                            <Link className="tp-line-white" href="tel:+971-50-6320879">+971-50-6320879</Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Email</label>
-                            <Link className="tp-line-white" href="mailto:hello@gmail.com">hello@gmail.com</Link>
+                            <Link className="tp-line-white" href="mailto:skylinedecor@namariqgroup.com">skylinedecor@namariqgroup.com</Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Address</label>
                             <Link className="tp-line-white" href="https://www.google.com.bd/maps/@23.7806365,90.4193257,12z?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                                602 Elgin St. Celina, Delaware <br /> 1009
+                                Industrial Area 2, P.O. Box:25569, <br />
+                                        Sharjah, UAE
                             </Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">
