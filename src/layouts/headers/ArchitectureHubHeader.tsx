@@ -30,7 +30,7 @@ const ArchitectureHubHeader = () => {
                                         </div>
                                         <div className="tp-header-8-lang d-none d-md-block">
                                             <Link href="#">EN</Link>
-                                            <Link href="#">FR</Link>
+                                            <Link href="#">AR</Link>
                                         </div>
                                     </div>
                                     <div className="tp-header-8-middle">

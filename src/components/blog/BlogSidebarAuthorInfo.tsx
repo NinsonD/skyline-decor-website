@@ -9,7 +9,7 @@ const BlogSidebarAuthorInfo = () => {
                     <Image src={blogImg} alt="blog" />
                 </div>
                 <div className="sidebar-widget-author-btn">
-                    <Link className="tp-btn-yellow-green sidebar-btn w-100" href="#">
+                    <Link className="tp-btn-yellow-green sidebar-btn w-100" href="/contact">
                         <span>
                             <span className="text-1">Contact Us</span>
                             <span className="text-2">Contact Us</span>

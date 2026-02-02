@@ -120,62 +120,6 @@ const BlogDeailsMain = () => {
                                                             <li>Interior Upgrades & Space Optimization</li> 
                                                         </ul>
                                                     </div>
-                                                    <div className="postbox-details-tag-wrap d-flex justify-content-between align-items-center">
-                                                        <div className="postbox-details-tag d-flex align-items-center mb-0">
-                                                            <span>Tagged with:</span>
-                                                            <div className="tagcloud">
-                                                                <Link href="#">Blog</Link>
-                                                                <Link href="#">Creative</Link>
-                                                                <Link href="#">Portfolio</Link>
-                                                                <Link href="#">Theme</Link>
-                                                            </div>
-                                                        </div>
-                                                        <div className="postbox-details-social">
-                                                            <Link href="#">
-                                                                <span><FacebookTwo /></span>
-                                                            </Link>{" "}
-                                                            <Link href="#">
-                                                                <span><TwitterSvg /></span>
-                                                            </Link>{" "}
-                                                            <Link href="#">
-                                                                <span> <DribbleTwo /></span>
-                                                            </Link>{" "}
-                                                            <Link href="#">
-                                                                <span><InstagramSvg /></span>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div className="postbox-details-author mt-30">
-                                                        <div className="sidebar-widget-author d-flex align-items-start">
-                                                            <div className="sidebar-widget-author-img">
-                                                                <Image style={{ width: "100%", height: "auto" }} src={authorImg2} alt="author" />
-                                                            </div>
-                                                            <div className="postbox-details-content">
-                                                                <div className="sidebar-widget-author-content">
-                                                                    <span>Project Head</span>
-                                                                    <h4 className="sidebar-widget-author-name">Sergiev</h4>
-                                                                    <p>
-                                                                        Phasellus et ipsum justo. Aenean fringilla a fermentum mauris non venenatis. <br />
-                                                                        Praesent at nulla aliquam ligula.
-                                                                    </p>
-                                                                </div>
-                                                                <div className="sidebar-widget-author-social">
-                                                                    <Link href="#">
-                                                                        <span><FacebookFour /></span>
-                                                                    </Link>{" "}
-                                                                    <Link href="#">
-                                                                        <span><TwitterFour /></span>
-                                                                    </Link>{" "}
-                                                                    <Link href="#">
-                                                                        <span><DribbleThree /></span>
-                                                                    </Link>{" "}
-                                                                    <Link href="#">
-                                                                        <span><InstagramFive /></span>
-                                                                    </Link>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                             <div className="col-xxl-4 col-xl-4 col-lg-4">

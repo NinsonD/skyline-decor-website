@@ -5,7 +5,7 @@ import offcanvas4 from "../../../public/assets/img/offcanvas/offcanvas-4.jpg";
 import logoBlack from '../../../public/assets/img/logo/logo-black.png';
 import logoWhite from '../../../public/assets/img/logo/logo-white.png';
 import PhotoProviderWrapper from '../shared/PhotoProviderWrapper';
-import { CrossIconTwo, DribbleTwo, InstagramSvg } from '@/svg';
+import { CrossIconTwo, DribbleTwo, FacebookSvg, InstagramSvg } from '@/svg';
 import MainMobileMenu from "../../layouts/subComponents/MainMobileMenu";
 import { BehanceTwoSvg } from "@/svg/social-icons/Behance";
 import { YouTubeSvg } from "@/svg/social-icons/YouTube";
@@ -49,8 +49,8 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                     </div>
                     <div className="tp-offcanvas-main">
                         <div className="tp-offcanvas-content d-none d-xl-block">
-                            <h3 className="tp-offcanvas-title">Hello There!</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                            <h3 className="tp-offcanvas-title">Latest News</h3>
+                            <p>Our Recent Ongoing Projects</p>
                         </div>
                         <div className="tp-offcanvas-menu d-xl-none">
                             <nav><MainMobileMenu /></nav>
@@ -83,16 +83,10 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                             <h3 className="tp-offcanvas-title sm">Follow Us</h3>
                             <ul>
                                 <li>
-                                    <Link href="#"><InstagramSvg /></Link>
+                                    <Link href="https://www.instagram.com/skyline.decor.uae?igsh=ODZ6NHN5eGg4d3Vq"><InstagramSvg /></Link>
                                 </li>
                                 <li>
-                                    <Link href="#"> <DribbleTwo /></Link>
-                                </li>
-                                <li>
-                                    <Link href="#"><BehanceTwoSvg /></Link>
-                                </li>
-                                <li>
-                                    <Link href="#"><YouTubeSvg /></Link>
+                                    <Link href="https://www.facebook.com/profile.php?id=61587143703156"> <FacebookSvg /></Link>
                                 </li>
                             </ul>
                         </div>

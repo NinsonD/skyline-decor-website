@@ -7,22 +7,12 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
         <footer className={`creative-footer-style ${buttonCls} p-relative z-index-1`} style={{ backgroundColor: "#F6F6F9" }}>
             <div className="tp-footer-widget-social">
                 <div className="tp_fade_anim" data-delay=".9" data-fade-from="top" data-ease="bounce">
-                    <Link href="#">
+                    <Link href="https://www.facebook.com/profile.php?id=61587143703156">
                         <span><FacebookTwo /></span>
                     </Link>
                 </div>
-                <div className="tp_fade_anim" data-delay=".7" data-fade-from="top" data-ease="bounce">
-                    <Link href="#">
-                        <span><TwitterTwo /></span>
-                    </Link>
-                </div>
-                <div className="tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                    <Link href="#">
-                        <span><DribbleTwo /></span>
-                    </Link>
-                </div>
                 <div className="tp_fade_anim" data-delay=".3" data-fade-from="top" data-ease="bounce">
-                    <Link href="#">
+                    <Link href="https://www.instagram.com/skyline.decor.uae?igsh=ODZ6NHN5eGg4d3Vq">
                         <span><InstagramTwo /></span>
                     </Link>
                 </div>
@@ -50,7 +40,6 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
                                         <li><Link href="/about-us-light">Who we are</Link></li>{" "}
                                         <li><Link href="/blog-details-light">Services</Link></li>{" "}
                                         <li><Link href="/portfolio-col-3-light">Projects</Link></li>{" "}
-                                        <li><Link href="/blog-details-light">Blog</Link></li>{" "}
                                         <li><Link href="/contact">Contact Us</Link></li>
                                     </ul>
                                 </div>

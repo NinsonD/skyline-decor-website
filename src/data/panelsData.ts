@@ -68,7 +68,7 @@ const panelsData: Panel[] = [
     id: 3,
     style: 'tp-funfact-green-wrap yellow-style',
     subtitle: '( Holy Moly! )',
-    title: 'Performing video',
+    title: 'Interior Work in UAE',
     customCls: "align-items-md-end",
     funfactNumber: "center",
     spacingCls: "pl-140 mb-20",

@@ -15,16 +15,6 @@ const BreadcurmbTwo = () => {
                                 <h3 className="tp-blog-title fs-100 tp_fade_anim">Transforming Spaces <Image src={shape} alt="shape" /> <br />Perfecting Interiors</h3>
                             </div>
                             <div className="tp-portfolio-inner-tab-wrap">
-                                <nav>
-                                    <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">All Projects</button>
-                                        <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Marketing</button>
-                                        <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Agency</button>
-                                        <button className="nav-link" id="nav-four-tab" data-bs-toggle="tab" data-bs-target="#nav-four" type="button" role="tab" aria-controls="nav-four" aria-selected="false">Branding</button>
-                                        <button className="nav-link" id="nav-five-tab" data-bs-toggle="tab" data-bs-target="#nav-five" type="button" role="tab" aria-controls="nav-five" aria-selected="false">Design</button>
-                                        <button className="nav-link" id="nav-six-tab" data-bs-toggle="tab" data-bs-target="#nav-six" type="button" role="tab" aria-controls="nav-six" aria-selected="false">Development</button>
-                                    </div>
-                                </nav>
                             </div>
                         </div>
                     </div>

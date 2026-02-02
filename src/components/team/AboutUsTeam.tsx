@@ -14,7 +14,7 @@ const AboutUsTeam = () => {
                 <div className="row justify-content-center">
                     <div className="col-xl-6">
                         <div className="tp-testimonial-title-wrap z-index-3">
-                            <div className="tp-testimonial-title-box mb-75 text-center">
+                            <div className="tp-testimonial-title-box text-center">
                                 <h4 className="tp-section-title text-white fs-140">
                                     Notable<br /> Projects
                                 </h4>

@@ -33,7 +33,6 @@ const CreativeAgencyFooter: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", clas
                                         <li><Link href="/about-us-light">Who we are</Link></li>{" "}
                                         <li><Link href="/blog-details-light">Services</Link></li>{" "}
                                         <li><Link href="/portfolio-col-3-light">Projects</Link></li>{" "}
-                                        <li><Link href="/blog-details-light">Blog</Link></li>{" "}
                                         <li><Link href="/contact">Contact Us</Link></li>
                                     </ul>
                                 </div>

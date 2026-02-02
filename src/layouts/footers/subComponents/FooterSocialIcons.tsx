@@ -4,16 +4,10 @@ import Link from 'next/link';
 export const FooterSocialIcons = ({ className }: { className: string }) => {
     return (
         <div className={className}>
-            <Link href="#">
+            <Link href="https://www.facebook.com/profile.php?id=61587143703156">
                 <span><FacebookTwo /></span>
             </Link>{" "}
-            <Link href="#">
-                <span><TwitterTwo /></span>
-            </Link>{" "}
-            <Link href="#">
-                <span><DribbleTwo /></span>
-            </Link>{" "}
-            <Link href="#">
+            <Link href="https://www.instagram.com/skyline.decor.uae?igsh=ODZ6NHN5eGg4d3Vq">
                 <span><InstagramTwo /></span>
             </Link>
         </div>
@@ -22,16 +16,10 @@ export const FooterSocialIcons = ({ className }: { className: string }) => {
 export const FooterSocialIconsTwo = ({ className }: { className: string }) => {
     return (
         <div className={className}>
-            <Link href="#">
+            <Link href="https://www.facebook.com/profile.php?id=61587143703156">
                 <span><FacebookSvg /></span>
             </Link>{" "}
-            <Link href="#">
-                <span><TwitterSvg /></span>
-            </Link>{" "}
-            <Link href="#">
-                <span><LinkedinSvg /></span>
-            </Link>{" "}
-            <Link href="#">
+            <Link href="https://www.instagram.com/skyline.decor.uae?igsh=ODZ6NHN5eGg4d3Vq">
                 <span><InstagramSvg /></span>
             </Link>
         </div>
