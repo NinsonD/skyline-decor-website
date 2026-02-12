@@ -2,7 +2,7 @@
 import blogBanner from '../../../../public/assets/img/blog/blog-details/blog-details-banner.jpg';
 import blogSmall from '../../../../public/assets/img/blog/blog-details/blog-details-sm-1.jpg';
 import blogSmall2 from '../../../../public/assets/img/blog/blog-details/blog-details-sm-2.jpg';
-import authorImg2 from '../../../../public/assets/img/blog/blog-standard/blog-av-1.jpg';
+import authorImg2 from '../../../../public/assets/img/blog/blog-standard/blog-av-1.png';
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import { TwitterFour, TwitterSvg, TwitterTwo } from '@/svg/social-icons/Twitter';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
