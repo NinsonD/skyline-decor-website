@@ -4,6 +4,7 @@ import GlobalVideoModal from "@/components/Popup/GlobalVideoModal";
 import { VideoProvider } from "@/provider/VideoProvider";
 import AppProvider from "@/provider/AppProvider";
 import Wrapper from "@/layouts/wrapper";
+import ModernPreloader from "@/components/preloader/ModernPreloader";
 import type { Metadata } from "next";
 import "swiper/css/bundle";
 import "./globals.scss";
@@ -100,6 +101,7 @@ export default function RootLayout({
      ${besley.variable} ${spaceGrotesk.variable} ${playfairDisplay.variable}
       ${satisfy.variable} ${teko.variable} ${phudu.variable} ${poppins.variable}
        ${onest.variable}`}>
+        <ModernPreloader />
         <AppProvider>
           <Wrapper>
             <VideoProvider>

@@ -1,5 +1,5 @@
 "use client"
-import { CrossIcon, CrossIconTwo, DribbleTwo, InstagramSvg, TwitterTwo } from "@/svg";
+import { CrossIcon, CrossIconTwo, DribbleTwo, InstagramSvg, TwitterTwo, FacebookSvg } from "@/svg";
 import logoWhite from "../../../public/assets/img/logo/logo-white.png";
 import logoBlack from "../../../public/assets/img/logo/logo-black.png";
 import MobileMenus from "../../layouts/subComponents/MobileMenus";
@@ -95,9 +95,8 @@ const MobileOffcanvas: React.FC<IProps> = (
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-15">Follow us</label>
                             <div className="tp-offcanvas-2-right-social">
-                                <Link href="#"><DribbleTwo /></Link>{" "}
-                                <Link href="#"><TwitterTwo /></Link>{" "}
-                                <Link href="#"><InstagramSvg /></Link>
+                                <Link href="https://www.facebook.com/profile.php?id=61587143703156"> <FacebookSvg /></Link>{" "}
+                                <Link href="https://www.instagram.com/skyline.decor.uae?igsh=ODZ6NHN5eGg4d3Vq"><InstagramSvg /></Link>
                             </div>
                         </div>
                     </div>
