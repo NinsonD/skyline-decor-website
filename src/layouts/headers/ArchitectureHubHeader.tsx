@@ -4,6 +4,7 @@ import logoBlack from "../../../public/assets/img/logo/logo-black.png";
 import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
 import { ArrowThree, MenubarIcon, SearchIcon } from '@/svg';
 import useGlobalContext from '@/hooks/useContext';
+import useStickyHeader from '@/hooks/useStickyHeader';
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -11,12 +12,13 @@ import Link from 'next/link';
 const ArchitectureHubHeader = () => {
     const { toggleSearch } = useGlobalContext();
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
+    const isSticky = useStickyHeader(20);
 
     return (
         <>
             <header>
                 {/* -- header area start -- */}
-                <div className="tp-header-8-area header-transparent tp-header-8-border" style={{ backgroundColor: "#f2f1ee" }}>
+                <div className={`tp-header-8-area header-transparent tp-header-8-border ${isSticky ? 'header-sticky' : ''}`} style={{ backgroundColor: "#f2f1ee" }}>
                     <div className="container container-1750">
                         <div className="row">
                             <div className="col-xl-12">

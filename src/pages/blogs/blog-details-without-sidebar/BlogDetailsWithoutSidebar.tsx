@@ -41,7 +41,6 @@ const BlogDeailsMain = () => {
                         {/* Post box area */}
                         <BlogDetailsPostbox />
                         {/* Post box area end */}
-
                         <section id="postbox" className="postbox-area tp-blog-details-ptb pt-110 pb-80">
                             <div className="container container-1750">
                                 <div className='tp-blog-details-banner fix mb-100'>
@@ -149,10 +148,7 @@ const BlogDeailsMain = () => {
                                             </div>
                                             <div className="postbox-details-code mb-40">
                                                 <pre>
-                                                    {`li:not(.old)::after {    
-content: "New!";
-color: deepPink;
-}`}
+                                                    {`li:not(.old)::after {content: "New!";color: deepPink;}`}
                                                 </pre>
                                             </div>
                                             <div className="postbox-details-text mb-50">
