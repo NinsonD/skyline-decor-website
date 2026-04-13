@@ -1,6 +1,6 @@
 
 import ArchitectureHubCopyright from "./subComponents/ArchitectureHubCopyright";
-import logoWhite from "../../../public/assets/img/logo/logo-black.png";
+import logoWhite from "../../../public/assets/img/logo/logo-white.png";
 import Image from "next/image";
 import Link from 'next/link';
 
@@ -76,7 +76,7 @@ const ArchitectureHubFooter = () => {
                                     </div>
                                     <div className="ar-footer-widget-info">
                                         <Link className="" target="_blank" href="tel:+971-50-6320879">+971-50-6320879</Link>
-                                        <Link className="" target="_blank" href="mailto:skylinedecor@namariqgroup.com">skylinedecor@namariqgroup.com</Link>
+                                        <Link className="" target="_blank" href="mailto:skylinedecor@namariqgroup.com" style={{ textTransform: 'lowercase', fontSize: '0.9rem' }}>skylinedecor@namariqgroup.com</Link>
                                     </div>
                                 </div>
                             </div>

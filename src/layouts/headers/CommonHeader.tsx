@@ -16,7 +16,7 @@ const CommonHeader = ({ spacingCls = "mt-40" }) => {
                     <div className="row align-items-center">
                         <div className="col-6">
                             <div className="tp-header-logo">
-                                <Link href="/architecture-hub">
+                                <Link href="/">
                                     <Image width={140} src={logoWhite} alt="logo-white" />
                                 </Link>
                             </div>

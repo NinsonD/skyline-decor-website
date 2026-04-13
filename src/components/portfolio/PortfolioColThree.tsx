@@ -1,6 +1,5 @@
 import portfolioData from '@/data/portfolioData';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const PortfolioColThree = () => {
     // Simulate different rows by slicing the data array
@@ -12,10 +11,10 @@ const PortfolioColThree = () => {
             <div className="col-lg-4 col-md-6" key={item.id}>
                 <div className="tp-portfolio-inner-item mb-65">
                     <div className="tp-portfolio-inner-thumb">
-                        <Link href={item.link}><Image style={{ width: "100%", height: "auto" }} src={item.image} alt={item.title} /></Link>
+                        <Image style={{ width: "100%", height: "auto" }} src={item.image} alt={item.title} />
                     </div>
                     <div className="tp-portfolio-inner-content">
-                        <h4 className="tp-portfolio-inner-title fs-30"><Link className="tp-line-white" href={item.link}>{item.title}</Link></h4>
+                        <h4 className="tp-portfolio-inner-title fs-30">{item.title}</h4>
                         <span>{item.category}</span>
                     </div>
                 </div>

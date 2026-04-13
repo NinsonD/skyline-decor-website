@@ -389,15 +389,15 @@ const portfolioData: PortfolioDT[] = [
   {
     id: 41,
     image: portfolioThumb14,
-    title: "WestIn RAK",
-    category: "Dubai - 2025",
+    title: "WestIn",
+    category: "Ras Al Khaimah - 2026",
     link: "/portfolio-details-gallery-light",
   },
   {
     id: 42,
     image: portfolioThumb15,
-    title: "Taller Alvarado",
-    category: "Dubai - 2025",
+    title: "Emarati School",
+    category: "Al Quwain - 2026",
     link: "/portfolio-details-gallery-light",
   },
   //portfolio col-3 data end

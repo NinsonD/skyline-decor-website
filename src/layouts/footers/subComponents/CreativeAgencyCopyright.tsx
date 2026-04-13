@@ -16,7 +16,7 @@ const CreativeAgencyCopyright: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", Z
                     <div className="col-xl-12">
                         <div className="tp-copyright-content text-center text-md-start tp_fade_anim" data-delay=".3" data-fade-from="bottom" data-ease="bounce">
                             <h2 className="tp-copyright-big-text">
-                                Skyline.Decor
+                                <span style={{ color: '#312f92' }}>Skyline.</span>Decor
                             </h2>
                         </div>
                     </div>
@@ -24,8 +24,8 @@ const CreativeAgencyCopyright: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", Z
                 <div className="tp-copyright-bottom">
                     <div className="row">
                         <div className="col-md-6">
-                            <div className="tp-copyright-left text-center text-md-start">
-                                <span>©{getCurrentYear()} skylinedecor.</span>
+                            <div className="tp-copyright-left text-center">
+                                <span style={{ whiteSpace: 'nowrap' }}>©{getCurrentYear()} Al Namariq.All Rights Reserved.</span>
                             </div>
                         </div>
                         <div className="col-md-6">

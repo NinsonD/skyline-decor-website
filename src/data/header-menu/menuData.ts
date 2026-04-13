@@ -23,7 +23,7 @@ const headerMenuData:MenuItem[] = [
           { title: "Creative Studio", link: "/creative-studio" },
           { title: "Design Agency", link: "/design-agency" },
           { title: "Creative Agency", link: "/creative-agency" },
-          { title: "Architecture Hub", link: "/architecture-hub", tag: "Hot" },
+          { title: "Architecture Hub", link: "/", tag: "Hot" },
           { title: "AI Image Generator", link: "/unique-ai-image" }
         ]
       },

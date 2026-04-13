@@ -290,10 +290,10 @@
                 & > ul {
                     & > li { 
                         & > a {
-                            font-weight: 700;
+                            font-weight: 600;
                             font-size: 50px;
                             line-height: 1;
-                            color: #717172;
+                            color: #000;
                             letter-spacing: -0.02em;
                             @media #{$md}{
                                 font-size: 35px;
@@ -301,7 +301,7 @@
                             @media #{$xs}{
                                 font-size: 30px;
                             }
-                            &::after{
+                            &::before{
                                 position: absolute;
                                 left: 0;
                                 top: 3px;
@@ -327,14 +327,14 @@
                                     font-size: 30px;
                                     line-height: 1;
                                     transition: .3s;
-                                    color: #717172;
+                                    color: #000;
                                     letter-spacing: -0.02em;
                                     @media #{$md,$xs}{
                                         font-size: 20px;
                                     }
                                     &:hover {
                                         transform: translateX(15px);
-                                        color: var(--tp-common-white);
+                                        color: #f8821e;
                                     }
                                 }
                             }
@@ -351,8 +351,16 @@
             border-bottom: 0;
         }
         & .tp-offcanvas-menu ul li > a {
-            padding: 0;
-            padding-left: 30px;
+            display: block;
+            padding: 0 0 10px 30px;
+            position: relative;
+            line-height: 1.2;
+            font-weight: 600;
+            transition: color 0.25s ease, font-weight 0.25s ease;
+            &:hover {
+                color: #f8821e;
+                font-weight: 700 !important;
+            }
         }
         & .tp-offcanvas-menu ul > li {
             &:not(:last-child){

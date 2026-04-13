@@ -46,7 +46,7 @@ const MobileOffcanvas: React.FC<IProps> = (
                 <div className="tp-offcanvas-2-left left-box">
                     <div className="tp-offcanvas-2-left-wrap d-flex justify-content-between align-items-center">
                         <div className="tp-offcanvas-2-logo">
-                            <Link href="/architecture-hub">
+                            <Link href="/">
                                 <Image className="logo-1" width={140} src={logoWhite} alt="logo-white" />
                                 <Image className="logo-2" width={140} src={logoBlack} alt="logo-black" />
                             </Link>

@@ -8,7 +8,7 @@ interface MenuItem {
 const menuItemsTwo: MenuItem[] = [
     {
         title: "Home",
-        href: "/architecture-hub",
+        href: "/",
     },
     {
         title: "About Us",

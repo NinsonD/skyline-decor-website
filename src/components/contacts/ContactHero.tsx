@@ -32,12 +32,12 @@ const ContactHero = () => {
             <div className="tp-contact-main-bottom">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-xl-9 col-lg-8"></div>
+                        <div className="col-xl-8 col-lg-7"></div>
 
-                        <div className="col-xl-3 col-lg-4">
+                        <div className="col-xl-4 col-lg-5">
                             <div className="tp-contact-main-funfact-wrap">
                                 <div className="crp-hero-funfact-wrap crp-hero-funfact-bg z-index-1 p-relative tp_fade_anim ar-about-funfact-color" data-delay=".5"
-                                    style={{ backgroundImage: `url(${bgShape.src})` }}>
+                                    style={{ backgroundImage: `url(${bgShape.src})`, minWidth: '280px' }}>
                                     <div className="crp-hero-funfact-line d-none d-xl-inline-block"></div>
                                     <div className="crp-hero-funfact-img">
                                         <Image src={shapeCircle} alt="shape circle" />
@@ -61,7 +61,9 @@ const ContactHero = () => {
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p>Need Support?</p>
-                                                <Link className="tp-line-white" href="mailto:skylinedecor@namariqgroup.com">skylinedecor@namariqgroup.com</Link>
+                                                <Link className="tp-line-white" href="mailto:skylinedecor@namariqgroup.com" style={{ textTransform: 'lowercase', fontSize: '0.82rem', lineHeight: 1.25, whiteSpace: 'normal', display: 'inline-block' }}>
+                                                    skylinedecor@namariqgroup.com
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="ar-about-funfact-item d-flex align-items-center">
@@ -74,9 +76,7 @@ const ContactHero = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="ar-about-funfact-item-bottom">
-                                        <p>See our <span>Refund Policies</span> or <span>FAQ</span></p>
-                                    </div>
+                                    <div className="ar-about-funfact-item-bottom" style={{ borderBottom: '2px solid rgba(255,255,255,0.1)', paddingBottom: '15px', marginBottom: '15px' }}></div>
                                 </div>
                             </div>
                         </div>

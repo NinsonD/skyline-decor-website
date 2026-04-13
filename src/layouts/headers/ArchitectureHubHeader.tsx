@@ -2,15 +2,13 @@
 import MobileMenus from '@/layouts/subComponents/MobileMenus';
 import logoBlack from "../../../public/assets/img/logo/logo-black.png";
 import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
-import { ArrowThree, MenubarIcon, SearchIcon } from '@/svg';
-import useGlobalContext from '@/hooks/useContext';
+import { ArrowThree, MenubarIcon } from '@/svg';
 import useStickyHeader from '@/hooks/useStickyHeader';
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const ArchitectureHubHeader = () => {
-    const { toggleSearch } = useGlobalContext();
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
     const isSticky = useStickyHeader(20);
 
@@ -37,17 +35,12 @@ const ArchitectureHubHeader = () => {
                                     </div>
                                     <div className="tp-header-8-middle">
                                         <div className="tp-header-logo">
-                                            <Link href="/architecture-hub">
+                                            <Link href="/">
                                                 <Image style={{ width: "100%", height: "auto" }} width={120} src={logoBlack} alt="logo" />
                                             </Link>
                                         </div>
                                     </div>
                                     <div className="tp-header-8-right d-flex align-items-center d-none d-md-inline-flex">
-                                        <div className="tp-header-8-search-box">
-                                            <button onClick={toggleSearch} className="tp-header-8-search tp-search-open-btn">
-                                                <span><SearchIcon strokeColor="#191919" /></span>
-                                            </button>
-                                        </div>
                                         <div className="tp-header-8-btn">
                                             <Link className="tp-btn-border-2" href="/contact">
                                                 Contact Us

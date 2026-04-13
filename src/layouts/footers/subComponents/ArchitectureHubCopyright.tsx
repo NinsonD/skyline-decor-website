@@ -7,8 +7,8 @@ const ArchitectureHubCopyright = () => {
             <div className="container container-1430">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
-                        <div className="ar-copyright-text text-lg-start text-center">
-                            <p>skylinedecor ©{getCurrentYear()}. All rights reserved.</p>
+                        <div className="ar-copyright-text text-center">
+                            <p style={{ whiteSpace: 'nowrap' }}>©{getCurrentYear()} Al Namariq.All rights reserved.</p>
                         </div>
                     </div>
                     <div className="col-lg-6">
