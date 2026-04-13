@@ -79,7 +79,7 @@ const MobileOffcanvas: React.FC<IProps> = (
                         <h4 className="tp-offcanvas-2-right-info-title">Get In Touch</h4>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Phone</label>
-                            <Link className="tp-line-white" href="tel:+971-50-6320879">+971-50-6320879</Link>
+                            <Link className="tp-line-white" href="tel:+971-50-632-0879">+971-50-632-0879</Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Email</label>

@@ -12,7 +12,7 @@ const FashionPortfolioItemCard = ({ item }: portfolioPropsDT) => {
         <Link href={item.link} className="cursor-hide">
             <div
                 className={`tp-project-5-2-item not-hide-cursor ${item.hasSpaceLeft ? 'space-left' : ''}`}
-                data-cursor="View<br>Demo"
+                data-cursor="View<br>Projects"
             >
                 <div className="tp-project-5-2-thumb">
                     <Image src={item.image} alt={item.title} />

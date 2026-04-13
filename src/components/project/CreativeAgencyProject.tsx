@@ -63,7 +63,7 @@ const CreativeAgencyProject: React.FC<CreativeAgencyProjectProps> = (
                                     </div>
                                 </div>
                                 <div className="col-xl-8">
-                                    <div className="not-hide-cursor" {...(showDataCursor === true ? { 'data-cursor': 'View<br>Demo' } : "")}>
+                                    <div className="not-hide-cursor" {...(showDataCursor === true ? { 'data-cursor': 'View<br>Projects' } : "")}>
                                         <Link className="cursor-hide" href={project.link}>
                                             <div className="studio-project-thumb">
                                                 <Image style={{ width: "100%", height: "auto" }} src={project.image} alt={project.title} />

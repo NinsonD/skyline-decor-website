@@ -17,7 +17,7 @@ const ContactLocationArea = () => {
           P.O. Box: 62379, Dubai, UAE
         </>
       ),
-      mapLink: "https://www.google.com/maps",
+      mapLink: "https://maps.app.goo.gl/C35qZV2TW6uyDzhG8",
       phone: "",
       email: "skylinedecor@namariqgroup.com",
     },
@@ -31,7 +31,7 @@ const ContactLocationArea = () => {
           P.O. Box: 25569, Sharjah, UAE
         </>
       ),
-      mapLink: "https://www.google.com/maps",
+      mapLink: "https://maps.app.goo.gl/SM4Br4Snrrek3GZDA",
       phone: "",
       email: "skylinedecor@namariqgroup.com",
     },
@@ -45,7 +45,7 @@ const ContactLocationArea = () => {
           P.O. Box: 3952738, Abu Dhabi, UAE
         </>
       ),
-      mapLink: "https://www.google.com/maps",
+      mapLink: "https://maps.app.goo.gl/WyatwNmbsD9WZZo1A",
       phone: "",
       email: "skylinedecor@namariqgroup.com",
     },

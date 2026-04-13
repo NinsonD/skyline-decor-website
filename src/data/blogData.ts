@@ -274,7 +274,7 @@ const blogData: blogDT[] = [
         category: "Interior Design",
         title: "Achieving Interior Design Goals in UAE with Skyline Décor",
         link: "/blog-details-light",
-        date: "July 15, 2023",
+        date: "July 28, 2025",
     },
     {
         id: 24,
@@ -282,7 +282,7 @@ const blogData: blogDT[] = [
         category: "Fit Out",
         title: "Behind the Scenes of Interior Fit-Out Projects in Dubai",
         link: "/blog-details-light",
-        date: "July 15, 2023",
+        date: "August 18, 2025",
     },
     {
         id: 25,
@@ -290,7 +290,7 @@ const blogData: blogDT[] = [
         category: "Renovation",
         title: "Starting Your Interior Renovation Business in UAE",
         link: "/blog-details-light",
-        date: "July 15, 2023",
+        date: "March 9, 2026",
     },
     //blog list data start
     {

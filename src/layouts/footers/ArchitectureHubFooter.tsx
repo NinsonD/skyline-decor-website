@@ -75,7 +75,7 @@ const ArchitectureHubFooter = () => {
                                         </Link>
                                     </div>
                                     <div className="ar-footer-widget-info">
-                                        <Link className="" target="_blank" href="tel:+971-50-6320879">+971-50-6320879</Link>
+                                        <Link className="" target="_blank" href="tel:+971-50-632-0879">+971-50-632-0879</Link>
                                         <Link className="" target="_blank" href="mailto:skylinedecor@namariqgroup.com" style={{ textTransform: 'lowercase', fontSize: '0.9rem' }}>skylinedecor@namariqgroup.com</Link>
                                     </div>
                                 </div>

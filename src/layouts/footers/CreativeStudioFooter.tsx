@@ -1,3 +1,5 @@
+"use client";
+
 import { FacebookTwo, TwitterTwo, DribbleTwo, InstagramTwo } from '@/svg';
 import CreativeStudioCopyright from './subComponents/CreativeStudioCopyright';
 import Link from 'next/link';
@@ -19,7 +21,7 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
             </div>
 
             <div className="creative-footer-text d-none d-lg-block">
-                <p>Skyline I’ve gone too far, send me back up 👆</p>
+                <p>'Sky is our limit'</p>
             </div>
 
             {/* -- footer area start -- */}
@@ -50,7 +52,7 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
                                 <h4 className="tp-footer-widget-title-sm pre mb-20">Contact</h4>
                                 <div className="tp-footer-widget-info">
                                     <Link href="mailto:skylinedecor@namariqgroup.com" style={{ textTransform: 'lowercase', fontSize: '0.9rem' }}>skylinedecor@namariqgroup.com</Link>
-                                    <Link href="tel:+971-50-6320879">+971-50-6320879</Link>
+                                    <Link href="tel:+971-50-632-0879">+971-50-632-0879</Link>
                                 </div>
                                 <div className="tp-footer-widget-info">
                                     <Link href="https://www.google.com/maps/" target="_blank">Industrial Area 2, P.O. Box: 25569, <br />

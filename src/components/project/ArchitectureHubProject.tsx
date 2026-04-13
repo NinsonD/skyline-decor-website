@@ -39,7 +39,7 @@ const ArchitectureHubProject = () => {
                                     <span>{project.title}</span>
                                     <i>{project.year}</i>
                                 </div>
-                                <div className="ar-project-thumb not-hide-cursor" data-cursor="View<br>Demo">
+                                <div className="ar-project-thumb not-hide-cursor" data-cursor="View<br>Projects">
                                     <Link className="cursor-hide" href={project.link}>
                                         {project.altText && <Image style={{ width: "100%", height: "auto" }} className="w-100" src={project.image} alt={project.altText} />}
                                     </Link>

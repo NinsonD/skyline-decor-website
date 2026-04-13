@@ -12,7 +12,7 @@ const CreativeStudioProject = () => {
         <div className="col-lg-6" key={project.id}>
             <div className="creative-project-item mb-100">
                 <div className="creative-project-thumb anim-zoomin-wrap p-relative">
-                    <div className="anim-zoomin not-hide-cursor" data-cursor="View<br/>Demo">
+                    <div className="anim-zoomin not-hide-cursor" data-cursor="View<br>Projects">
                         <Link className="cursor-hide" href={project.link}>
                             <Image style={{ width: "100%", height: "auto" }} src={project.image} alt={project.title} />
                         </Link>

@@ -50,7 +50,7 @@ const ProjectCard = ({ project, addToRefs }: ProjectCardProps) => {
       className="tp-project-item mb-95 tp--hover-item"
       ref={addToRefs}
     >
-      <div className="tp-project-thumb not-hide-cursor" data-cursor="View<br>Demo">
+      <div className="tp-project-thumb not-hide-cursor" data-cursor="View<br>Projects">
         <Link
           className="cursor-hide tp--hover-img"
           data-displacement="assets/img/webgl/1.jpg"

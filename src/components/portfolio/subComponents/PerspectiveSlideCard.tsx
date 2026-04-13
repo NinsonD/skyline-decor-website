@@ -19,7 +19,7 @@ const PerspectiveSlideCard: React.FC<PerspectiveSlideCardProps> = ({ item }) => 
                             {item.category}
                         </span>
                         <h1
-                            className="tp-perspective-title tp_reveal_anim not-hide-cursor" data-cursor="View<br>Demo">
+                            className="tp-perspective-title tp_reveal_anim not-hide-cursor" data-cursor="View<br>Projects">
                             <Link className="cursor-hide" href={item.link}>
                                 {item.title}
                             </Link>

@@ -13,7 +13,7 @@ const BlogStandardBreadCrumb = ({ title = "Blog Classic", subTitle = "" }) => {
                             <div className="tp-breadcrumb-list mb-35">
                                 <span><Link href="/">Home</Link></span>
                                 <span className="dvdr"><i>|</i></span>
-                                <span>About Us</span>
+                                <span><Link href="/about-us-light">About Us</Link></span>
                                 {subTitle &&
                                     <>
                                         <span className="dvdr"><i>|</i></span>

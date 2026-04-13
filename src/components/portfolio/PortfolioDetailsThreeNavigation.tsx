@@ -41,7 +41,7 @@ const PortfolioDetailsThreeNavigation = () => {
                         <div key={item.id} className="col-lg-6">
                             <div
                                 className="tp-pd-3-navigation-thumb-wrap tp-pd-3-navigation-thumb-overlay p-relative not-hide-cursor mb-20"
-                                data-cursor="View<br>Demo"
+                                data-cursor="View<br>Projects"
                             >
                                 <Link className="cursor-hide" href={item.href}>
                                     <div className="tp-pd-3-navigation-thumb">

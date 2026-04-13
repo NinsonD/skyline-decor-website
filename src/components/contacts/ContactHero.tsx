@@ -72,7 +72,7 @@ const ContactHero = () => {
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p>Chat with Us</p>
-                                                <Link className="tp-line-white" href="phn:0506320879">+971-50-6320879</Link>
+                                                <Link className="tp-line-white" href="phn:0506320879">+971-50-632-0879</Link>
                                             </div>
                                         </div>
                                     </div>

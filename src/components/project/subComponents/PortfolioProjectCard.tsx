@@ -7,7 +7,7 @@ const PortfolioProjectCard = ({ project }: { project: projectsDT }) => {
     return (
         <div className="col-lg-6 tp_fade_anim" data-delay={project.delay} data-fade-from={project.fadeDirection}>
             <div className="pp-project-item tp--hover-item mb-65">
-                <div className="pp-project-item-thumb not-hide-cursor" data-cursor="View<br/>Demo">
+                <div className="pp-project-item-thumb not-hide-cursor" data-cursor="View<br>Projects">
                     <Link className="cursor-hide" href={project.link}>
                         <Image style={{ width: "100%", height: "auto" }} src={project.image} alt={project.title} />
                     </Link>

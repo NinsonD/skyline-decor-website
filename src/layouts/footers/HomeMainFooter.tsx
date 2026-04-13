@@ -42,7 +42,7 @@ const HomeMainFooter:React.FC<IHomeMainFooter> = ({bgColor, buttonCls, quikLinkC
                                 <h4 className="tp-footer-widget-title-sm pre mb-20">Contact</h4>
                                 <div className="tp-footer-widget-info">
                                     <Link href="mailto:skylinedecor@namariqgroup.com" style={{ textTransform: 'lowercase', fontSize: '0.9rem' }}>skylinedecor@namariqgroup.com</Link>
-                                    <Link href="tel:+971-50-6320879">+971-50-6320879</Link>
+                                    <Link href="tel:+971-50-632-0879">+971-50-632-0879</Link>
                                 </div>
                                 <div className="tp-footer-widget-info">
                                     <Link href="https://www.google.com/maps/" target="_blank">Industrial Area 2, P.O. Box: 25569, <br />

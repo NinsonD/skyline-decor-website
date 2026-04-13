@@ -128,7 +128,7 @@ const BlogDeailsMain = () => {
                                                         <BlogSidebarAuthorInfo />
                                                     </div>
                                                     <div className="sidebar-widget mb-55">
-                                                        <h3 className="sidebar-widget-title">Latest Posts</h3>
+                                                        <h3 className="sidebar-widget-title">Other Posts</h3>
                                                         <BlogSidebarPost />
                                                     </div>
                                                 </div>

@@ -31,7 +31,7 @@ const PortfolioSlicerElegant = () => {
                                                 <div key={index} className="tp-slider-elegant-item">
                                                     <div
                                                         className="tp-slider-elegant-thumb not-hide-cursor"
-                                                        data-cursor="View<br>Demo"
+                                                        data-cursor="All<br>Projects"
                                                     >
                                                         <Link className="cursor-hide" href={item.href}>
                                                             <Image src={item.img} alt={item.title} />

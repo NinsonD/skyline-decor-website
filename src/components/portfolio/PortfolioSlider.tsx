@@ -11,7 +11,7 @@ const PortfolioSlider = () => {
                 <div className="parallax-slider-inner">
                     {
                         displayPortfolioItems.map((item) => (
-                            <div key={item.id} className="parallax-item not-hide-cursor" data-cursor="View<br>Demo">
+                            <div key={item.id} className="parallax-item not-hide-cursor" data-cursor="View<br>Projects">
                                 <Link className="cursor-hide" href={item.link}>
                                     <div className="parallax-content">
                                         <span>{item.category}</span>

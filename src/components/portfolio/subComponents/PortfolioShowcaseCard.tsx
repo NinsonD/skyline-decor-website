@@ -10,7 +10,7 @@ const PortfolioShowcaseCard = ({ item }: portfolioCardPropsDT) => {
     return (
         <div
             key={item.id}
-            className="des-portfolio-item showcase-portfolio-panel p-relative not-hide-cursor mb-30" data-cursor="View<br>Demo">
+            className="des-portfolio-item showcase-portfolio-panel p-relative not-hide-cursor mb-30" data-cursor="View<br>Projects">
             <Link className="cursor-hide" href={item.link}>
                 <div className="des-portfolio-thumb p-relative">
                     <Image
